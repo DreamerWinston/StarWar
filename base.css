@@ -1,0 +1,241 @@
+/* 游戏屏幕 */
+#game_screen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    /* top: 0; */
+    /* left: 0; */
+
+    background-image: url('images/background-1.jpg');
+    border: 0ex solid black;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* 游戏背景 */
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 20%;
+
+    background-image: url('images/background-1.jpg');
+    border: 0ex solid black;
+}
+
+#score_menu{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color:rgb(255, 255, 255 ,0.5);
+}
+
+/* 敌机 */
+.enemy {
+    width: 45px;
+    height: 30px;
+    background-image: url('images/diji.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+.enemy_m {
+    width: 45px;
+    height: 30px;
+    background-image: url('images/enemy1.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.enemy_boss {
+    width: 45px;
+    height: 30px;
+    background-image: url('images/enemy2_n1.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.aestroid_brown{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/aestroid_brown.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.aestroid_dark{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/aestroid_dark.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.aestroid_gray_2{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/aestroid_gray_2.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.aestroid_gray{
+    width: 50px;
+    height: 50px;
+    background-image: url('images/aestroid_gray.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#plane {
+    width: 90px;
+    height: 90px;
+    background-image: url('images/plane1.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.plane_bullet {
+    width: 14px;
+    height: 28px;
+    background-image: url('images/zidan.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.enemy_bullet {
+    width: 14px;
+    height: 28px;
+    background-image: url('images/bullet2.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+#menu_score{
+    position: absolute;
+    width: 250px;
+    height: 45px;
+
+}
+#menu_oil{
+    position: absolute;
+    width: 250px;
+    height: 45px;
+
+}
+
+#menu_pause{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-image: url('images/game_pause_nor.png');
+
+}
+
+#menu_mute{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+
+}
+
+.fuel{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-image: url('images/fuel.png');
+}
+
+/* 游戏介绍 */
+
+#firstView{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.459);
+    width: 100%;
+    height: 100%;
+}
+
+#instructView{
+    position: absolute;
+    background-color: rgba(252, 252, 252, 0.63);
+    width: 600px;
+    height: 700px;
+    left: 30%;
+    top: 10%;
+
+}
+
+#logoView{
+    position: absolute;
+    width: 242px;
+    height: 162px;
+
+    background-image: url('logo/logo-01.png');
+    background-repeat: no-repeat;
+}
+
+#btnPlay{
+    position: absolute;
+    width: 80px;
+}
+
+#recordView{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.459);
+    /* background-color: white; */
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 预加载样式 */
+
+
+body{
+    line-height:1.4;
+    color:#333;
+    font-family:arial;
+    font-size: 12px;
+    background:gray;
+
+
+    margin: 0 auto;
+    background-size: cover;
+
+}
+
+input,textarea,select{
+    font-size:12px;
+    font-size:100%;    
+    font-family:arial;
+    font-family:inherit;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
+/*image with no-border*/
+a img{border:0;}
+img{border:0;}
